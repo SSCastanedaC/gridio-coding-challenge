@@ -10,7 +10,7 @@ from datetime import date, datetime, timedelta
 #Access through /marketprice/get-finland-prices
 def get_finland_prices(request):
     """
-    Instead of using BS4 to scrapping, I found out that table data
+    Instead of using BS4 to scrapping, I figured out that table data
     comes from an API, so I've decided to use requests library to access
     to data directly to improve performance
     """
